@@ -1,5 +1,5 @@
-import app from "@/config/app";
+import app from '@/config/app'
 
 export default defineAppConfig({
-  ...app,
+	...app
 })

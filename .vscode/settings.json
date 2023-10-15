@@ -1,19 +1,23 @@
 {
-  "editor.tabSize": 2,
+	"editor.tabSize": 2,
 
-  "editor.quickSuggestions": {
-    "strings": true
-  },
-  
-  "files.associations": {
-    "*.css": "tailwindcss"
-  },
+	"editor.quickSuggestions": {
+		"strings": true
+	},
 
-  "cSpell.language": "en-GB",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
 
-  "cSpell.words": [
-    "Gabebook",
-    "Nuxt",
-    "nuxtjs"
-  ]
+	"editor.formatOnSave": true,
+
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+
+	"cSpell.language": "en-GB",
+
+	"cSpell.words": ["Gabebook", "Nuxt", "nuxtjs", "tailwindcss"]
 }

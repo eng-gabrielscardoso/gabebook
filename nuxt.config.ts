@@ -1,32 +1,70 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  // Nuxt modules
-  modules: [
-    '@nuxtjs/color-mode',
+	// Nuxt modules
+	modules: [
+		'@nuxtjs/color-mode',
 
-    '@nuxt/image',
+		'@nuxtjs/eslint-module',
 
-    '@nuxt/ui',
+		'@nuxt/image',
 
-    'dayjs-nuxt',
-  ],
+		'@nuxtjs/robots',
 
-  // Nuxt devtools
-  devtools: { 
-    enabled: import.meta.env.MODE === 'development',
-  },
+		'@nuxt/ui',
 
-  // Nuxt Colour Mode
-  colorMode: {
-    preference: 'system',
-    fallback: 'dark',
-  },
+		'dayjs-nuxt'
+	],
 
-  // Nuxt UI
-  ui: {
-    global: true,
-  },
+	// Nuxt Extends
+	extends: ['nuxt-seo-kit'],
 
-  // Nuxt DayJS
-  dayjs: {}
+	// Nuxt Runtime Configuration
+	runtimeConfig: {
+		public: {
+			siteUrl: 'https://gabe-book.com',
+			siteName: 'Gabebook',
+			siteDescription:
+				'Gabebook é um blog simples, com o intuito de partilhar minhas impressões de leituras com outras pessoas.',
+			language: 'pt',
+			'nuxt-seo-kit': {
+				siteUrl: 'https://gabe-book.com',
+				siteName: 'Gabebook',
+				siteImage: '',
+				siteDescription:
+					'Gabebook é um blog simples, com o intuito de partilhar minhas impressões de leituras com outras pessoas.',
+				language: 'pt',
+				indexable: true
+			}
+		}
+	},
+
+	// Nuxt devtools
+	devtools: {
+		enabled: import.meta.env.MODE === 'development'
+	},
+
+	// Nuxt Colour Mode
+	colorMode: {
+		classSuffix: '',
+		preference: 'system',
+		fallback: 'dark'
+	},
+
+	// Nuxt Robots
+	robots: {
+		rules: [
+			{
+				UserAgent: '*',
+				Disallow: ''
+			}
+		]
+	},
+
+	// Nuxt UI
+	ui: {
+		global: true
+	},
+
+	// Nuxt DayJS
+	dayjs: {}
 })
