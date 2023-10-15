@@ -19,5 +19,14 @@
 
 	"cSpell.language": "en-GB",
 
-	"cSpell.words": ["cleanup", "Gabebook", "Nuxi", "Nuxt", "nuxtjs", "Supabase", "tailwindcss"]
+	"cSpell.words": [
+		"cleanup",
+		"Gabebook",
+		"Nuxi",
+		"Nuxt",
+		"nuxtjs",
+		"Supabase",
+		"tailwindcss",
+		"vueuse"
+	]
 }

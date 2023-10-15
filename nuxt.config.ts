@@ -12,7 +12,11 @@ export default defineNuxtConfig({
 
 		'@nuxt/ui',
 
-		'dayjs-nuxt'
+		'@vueuse/nuxt',
+
+		'dayjs-nuxt',
+
+		'nuxt-lodash'
 	],
 
 	// Nuxt Extends
