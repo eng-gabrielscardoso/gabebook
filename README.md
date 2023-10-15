@@ -2,7 +2,6 @@
 
 <div align="center">
   <img src="https://skills.thijs.gg/icons?i=html,css,js,ts,tailwindcss,vue,nuxt,vscode,github,markdown" />
-  <span style="font-size:1.25rem;">A simple blog post made to share my reads impressions</span>
 </div>
 
 <div align="center">
