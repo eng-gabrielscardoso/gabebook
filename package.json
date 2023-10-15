@@ -1,7 +1,39 @@
 {
-	"name": "nuxt-app",
+	"name": "gabebook",
+	"author": {
+		"email": "eng.gabrielscardoso@gmail.com",
+		"name": "Gabriel Santos Cardoso",
+		"url": "https://eng-gabrielscardoso.github.io"
+	},
+	"bugs": {
+		"email": "eng.gabrielscardoso@gmail.com",
+		"url": "https://github.com/eng-gabrielscardoso/gabebook/issues"
+	},
+	"contributors": [
+		{
+			"email": "eng.gabrielscardoso@gmail.com",
+			"name": "Gabriel Santos Cardoso",
+			"url": "https://eng-gabrielscardoso.github.io"
+		}
+	],
+	"repository": {
+		"directory": ".",
+		"type": "git",
+		"url": "https://github.com/eng-gabrielscardoso/gabebook"
+	},
+	"maintainers": [
+		{
+			"email": "eng.gabrielscardoso@gmail.com",
+			"name": "Gabriel Santos Cardoso",
+			"url": "https://eng-gabrielscardoso.github.io"
+		}
+	],
+	"homepage": "https://gabe-book.com",
+	"description": "Gabebook is a simple blog post made to share my reads impressions",
+	"license": "MIT",
 	"private": true,
 	"type": "module",
+	"version": "0.0.1",
 	"scripts": {
 		"build": "nuxt build",
 		"dev": "nuxt dev",
