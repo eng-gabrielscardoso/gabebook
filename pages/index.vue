@@ -5,5 +5,6 @@ const { title } = useAppConfig()
 <template>
 	<div>
 		<span>{{ title }}</span>
+		<BaseThemeSwitcher />
 	</div>
 </template>
