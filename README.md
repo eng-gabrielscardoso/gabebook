@@ -5,6 +5,10 @@
   <span style="font-size:1.25rem;">A simple blog post made to share my reads impressions</span>
 </div>
 
+<div align="center">
+  <span style="font-size:1.25rem;">A simple blog post made to share my reads impressions</span>
+</div>
+
 ---
 
 - [Gabebook](#gabebook)
