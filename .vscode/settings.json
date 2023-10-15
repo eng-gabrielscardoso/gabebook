@@ -1,0 +1,19 @@
+{
+  "editor.tabSize": 2,
+
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+
+  "cSpell.language": "en-GB",
+
+  "cSpell.words": [
+    "Gabebook",
+    "Nuxt",
+    "nuxtjs"
+  ]
+}
