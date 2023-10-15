@@ -1,7 +1,8 @@
 <template>
-	<div class="flex h-full min-h-screen w-full flex-col">
+	<div class="flex min-h-screen w-full flex-col">
 		<TheHeader />
-		<main class="container mx-auto w-full">
+
+		<main class="container mx-auto w-full flex-grow">
 			<slot></slot>
 		</main>
 
