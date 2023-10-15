@@ -1,6 +1,6 @@
 # Gabebook's Architecture
 
-This application is a Fullstack application made with [NuxtJS](https://nuxt.com) integrated with [Supabase](https://supabase.com) platform as [BaaS.](https://en.wikipedia.org/wiki/Banking_as_a_service)
+This application is a Fullstack application made with [NuxtJS.](https://nuxt.com)
 
 In order to organise and advance with application development, we use the [Architecture Decision Records (ADR) Model.](https://adr.github.io/)
 
