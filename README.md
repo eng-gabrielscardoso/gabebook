@@ -1,75 +1,40 @@
-# Nuxt 3 Minimal Starter
+# Gabebook
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+<div align="center">
+  <img src="https://skills.thijs.gg/icons?i=html,css,js,ts,tailwindcss,vue,nuxt,supabase,vscode,github,markdown" />
+  <span style="font-size:1.25rem;">A simple blog post made to share my reads impressions</span>
+</div>
 
-## Setup
+---
 
-Make sure to install the dependencies:
+- [Gabebook](#gabebook)
+  - [Authors](#authors)
+  - [Architecture](#architecture)
+  - [Contributing](#contributing)
+  - [Code of conduct](#code-of-conduct)
+  - [Security](#security)
+  - [Licence](#licence)
 
-```bash
-# npm
-npm install
+## Authors
 
-# pnpm
-pnpm install
+See the complete list of authors [here.](AUTHORS.md)
 
-# yarn
-yarn install
+## Architecture
 
-# bun
-bun install
-```
+This project uses the ADR model to implement new features. See the complete architecture documentation for more information [here.](ARCHITECTURE.md)
 
-## Development Server
+## Contributing
 
-Start the development server on `http://localhost:3000`:
+To contribute to this project just read the following documentation to follow the instructions to install project, develop and contribute. See the complete documentation [here.](CONTRIBUTING.md)
 
-```bash
-# npm
-npm run dev
+## Code of conduct
 
-# pnpm
-pnpm run dev
+Gabebook is a free open source project, developed with no restrictions or strong copyright. To maintain this policy please follow the instructions present in our [Code of Conduct.](CODE_OF_CONDUCT.md)
 
-# yarn
-yarn dev
+## Security
 
-# bun
-bun run dev
-```
+In order to enforce security requirements, please follow the instructions present in our [Security Policy.](SECURITY.md)
 
-## Production
+## Licence
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This project is licensed under the [MIT Licence](LICENSE)
