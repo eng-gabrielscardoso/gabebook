@@ -1,10 +1,5 @@
-<script setup>
-const { title } = useAppConfig()
-</script>
+<script setup></script>
 
 <template>
-	<div>
-		<span>{{ title }}</span>
-		<BaseThemeSwitcher />
-	</div>
+	<div>Something for tests</div>
 </template>
