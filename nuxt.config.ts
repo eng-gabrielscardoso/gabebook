@@ -2,14 +2,23 @@
 export default defineNuxtConfig({
   // Nuxt modules
   modules: [
-   '@nuxt/ui' 
+    '@nuxt/image',
+
+    '@nuxt/ui',
+
+    'dayjs-nuxt'
   ],
 
   // Nuxt devtools
-  devtools: { enabled: import.meta.env.MODE === 'development' },
+  devtools: { 
+    enabled: import.meta.env.MODE === 'development'
+  },
 
   // Nuxt UI
   ui: {
-    global: true,
-  }
+    global: true
+  },
+
+  // Nuxt DayJS
+  dayjs: {}
 })
