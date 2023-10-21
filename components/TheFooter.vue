@@ -3,8 +3,10 @@ const { author } = useAppConfig()
 </script>
 
 <template>
-	<footer class="container mx-auto">
-		<div class="flex justify-end py-4">
+	<footer
+		class="mx-auto -mb-px w-full border-t border-gray-200 py-4 backdrop-blur dark:border-gray-800"
+	>
+		<div class="flex justify-center py-1">
 			<span class="flex items-center gap-2"
 				>Made with <UIcon name="i-heroicons-heart-20-solid" class="text-red-600" /> by {{ author }}
 			</span>
