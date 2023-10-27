@@ -12,7 +12,7 @@ export default defineNuxtConfig({
 
 		'@nuxtjs/robots',
 
-		'@nuxt/ui',
+		'@nuxtjs/tailwindcss',
 
 		'@vueuse/nuxt',
 
@@ -66,11 +66,9 @@ export default defineNuxtConfig({
 		]
 	},
 
-	// Nuxt UI
-	ui: {
-		global: true
-	},
-
 	// Nuxt DayJS
-	dayjs: {}
+	dayjs: {},
+
+	// Nuxt TailwindCSS
+	tailwindcss: {}
 })

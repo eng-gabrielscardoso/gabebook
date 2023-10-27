@@ -11,15 +11,5 @@ export default defineAppConfig({
 	 *
 	 * @var {string} author
 	 */
-	author: 'Gabriel Santos Cardoso',
-
-	/**
-	 * Nuxt UI configuration
-	 *
-	 * @var {object} ui
-	 */
-	ui: {
-		primary: 'red',
-		gray: 'slate'
-	}
+	author: 'Gabriel Santos Cardoso'
 })
