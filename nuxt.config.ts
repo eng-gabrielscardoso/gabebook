@@ -12,11 +12,11 @@ export default defineNuxtConfig({
 
 		'@nuxtjs/robots',
 
-		'@nuxt/ui',
-
 		'@vueuse/nuxt',
 
 		'dayjs-nuxt',
+
+		'nuxt-icon',
 
 		'nuxt-lodash'
 	],
@@ -66,11 +66,16 @@ export default defineNuxtConfig({
 		]
 	},
 
-	// Nuxt UI
-	ui: {
-		global: true
-	},
-
 	// Nuxt DayJS
-	dayjs: {}
+	dayjs: {},
+
+	// Tailwind and PostCSS Config
+	css: ['~/assets/css/main.css'],
+
+	postcss: {
+		plugins: {
+			tailwindcss: {},
+			autoprefixer: {}
+		}
+	}
 })

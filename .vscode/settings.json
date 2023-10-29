@@ -1,23 +1,5 @@
 {
 	"editor.tabSize": 2,
-
-	"editor.quickSuggestions": {
-		"strings": true
-	},
-
-	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true
-	},
-
-	"editor.formatOnSave": true,
-
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-
-	"files.associations": {
-		"*.css": "tailwindcss"
-	},
-
 	"cSpell.language": "en-GB",
-
 	"cSpell.words": ["cleanup", "Gabebook", "Nuxi", "Nuxt", "nuxtjs", "tailwindcss", "vueuse"]
 }
