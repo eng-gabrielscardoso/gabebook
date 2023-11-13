@@ -42,8 +42,8 @@ devDependencies:
     specifier: ^10.5.0
     version: 10.5.0(nuxt@3.8.0)(vue@3.3.4)
   dayjs-nuxt:
-    specifier: ^2.1.1
-    version: 2.1.1
+    specifier: ^2.1.9
+    version: 2.1.9
   eslint:
     specifier: ^8.53.0
     version: 8.53.0
@@ -4258,10 +4258,10 @@ packages:
     resolution: {integrity: sha512-d4ZVpCW31eWwCMe1YT3ur7mUDnTXbgwyzaL320DrcRT45rfjYxkt5QWLrmOJ+/UEAI2+fQgKe/fCjR8l4TpRgw==}
     dev: true
 
-  /dayjs-nuxt@2.1.1:
-    resolution: {integrity: sha512-8I8pm2Fz+iqffdQBgwf3nKXmbfv5/DnzyldQ0FxK958nqN+CLgCHyzAd8AY4hr4PJ204t91RchyhsmApHuD9lw==}
+  /dayjs-nuxt@2.1.9:
+    resolution: {integrity: sha512-7L1X8Wm+O2s2o+YK8RH1GK0SUUsh7l0lnIzsjaLGvyu64asLs2KVNoh25J4tQurdILp2TyrFaTo/k3k/ZPub9Q==}
     dependencies:
-      '@nuxt/kit': 3.7.4
+      '@nuxt/kit': 3.8.0
       dayjs: 1.11.10
     transitivePeerDependencies:
       - rollup
